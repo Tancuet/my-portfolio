@@ -2925,6 +2925,18 @@ input, select, textarea {
 		text-align: center;
 	}
 
+		#header .profile-image {
+			width: 200px !important;
+			height: 200px !important;
+			max-width: 200px !important;
+			max-height: 200px !important;
+			border-radius: 50%;
+			object-fit: cover;
+			display: block;
+			margin: 0 auto 1.5em auto;
+			border: 1px solid #ffffff;
+		}
+
 		#header a {
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
