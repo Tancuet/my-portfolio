@@ -11,6 +11,37 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.image.fit img {
+				aspect-ratio: 16/9;
+				object-fit: cover;
+				object-position: center 20%;
+			}
+			
+			#one .image.fit {
+				max-width: 100%;
+				margin-top: 0;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			
+			#one .image.fit img {
+				aspect-ratio: 3/3;
+				width: 100%;
+				object-fit: cover;
+				object-position: center 50%;
+				border-radius: 12px;
+				box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+				transition: transform 0.3s ease, box-shadow 0.3s ease;
+				display: block;
+			}
+			
+			#one .image.fit img:hover {
+				transform: translateY(-3px);
+				box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -30,16 +61,16 @@
 		<!-- One -->
 			<section id="one" class="main style1">
 				<div class="container">
-					<div class="row gtr-150">
-						<div class="col-6 col-12-medium">
+					<div class="row gtr-50 aln-middle">
+						<div class="col-7 col-12-medium">
 							<header class="major">
 								<h2>About Me</h2>
 							</header>
 							<p>Customer Support & Project Management Specialist with experience in IT services and iGaming. 
 								I help products and teams work more reliably: from user support to project management.</p>
 						</div>
-						<div class="col-6 col-12-medium imp-medium">
-							<span class="image fit"><img src="images/pic01.jpg" alt="" /></span>
+						<div class="col-5 col-12-medium">
+							<span class="image fit"><img src="images/about-me-img.jpg" alt="" /></span>
 						</div>
 					</div>
 				</div>
@@ -80,7 +111,7 @@
 					<p>A summary of my recent roles, responsibilities, and achievements.</p>
 					<div class="row gtr-150">
 						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/pic02.jpg" alt="" /></span>
+							<span class="image fit"><img src="images/work_boom.png" alt="" /></span>
 							<h3>VIP Account Manager</h3>
 							<p><strong>Boomerang Partners (Dec 2025 - Present)</strong></p>
 							<p>Managed high-value client relationships, delivering support at scale (200-300 daily interactions). Focused on proactive engagement, retention initiatives, and resolving complex situations to drive customer loyalty and revenue.</p>
@@ -89,7 +120,7 @@
 							</ul>
 						</div>
 						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/pic03.jpg" alt="" /></span>
+							<span class="image fit"><img src="images/nda.png" alt="" /></span>
 							<h3>Technical Customer Support</h3>
 							<p><strong>iGaming Industry (Jan 2025 - Dec 2025)</strong></p>
 							<p>Provided multilingual support (English, German, Spanish) resolving platform and gaming issues. Escalated complex incidents, administered request processing, and maintained strict SLA compliance while tracking service KPIs.</p>
@@ -98,12 +129,12 @@
 							</ul>
 						</div>
 						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
-							<h3>Project Manager</h3>
+							<span class="image fit"><img src="images/me - jdr.jpg" alt="" /></span>
+							<h3>Project Manager & Coordinator</h3>
 							<p><strong>JDR (Dec 2022 - Nov 2024)</strong></p>
-							<p>Led projects from initial planning to full execution. Analyzed target audiences, negotiated budgets, and optimized time management to ensure efficient data completion and successful project delivery.</p>
+									<p>Started as an intern at the JDR Bureau in Moscow and advanced to managing full-cycle projects. Analyzed target audiences, negotiated budgets, and optimized time management to ensure efficient data completion and successful project delivery.</p>
 							<ul class="actions special">
-								<li><a href="#" class="button">View Details</a></li>
+								<li><a href="https://jdr.ru/znakomtes-novyj-stazher-nmo/" class="button">Read Article</a></li>
 							</ul>
 						</div>
 					</div>
@@ -114,12 +145,11 @@
 			<section id="four" class="main style2 special">
 				<div class="container">
 					<header class="major">
-						<h2>Ipsum feugiat consequat?</h2>
-					</header>
-					<p>Sed lacus nascetur ac ante amet sapien.</p>
+					<h2>Let's work together!</h2>
+				</header>
+				<p>Are you looking for a dedicated specialist to join your team? I am open to new opportunities and would be glad to connect.</p>
 					<ul class="actions special">
-						<li><a href="#" class="button wide primary">Sign Up</a></li>
-						<li><a href="#" class="button wide">Learn More</a></li>
+					<li><a href="mailto:edinovivan0@gmail.com" class="button wide primary">GET IN TOUCH</a></li>
 					</ul>
 				</div>
 			</section>
@@ -445,14 +475,12 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 		<!-- Footer -->
 			<section id="footer">
 				<ul class="icons">
-					<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-					<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-					<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-					<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+					<li><a href="https://www.linkedin.com/in/edinovivan-560798266/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					<li><a href="https://github.com/Tancuet" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="mailto:edinovivan0@gmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
 				</ul>
 				<ul class="copyright">
-					<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					<li>&copy; Ivan Edinov. All rights reserved.</li><li>Built with: HTML5, CSS, Git, Cloudflare</li><li>Idea and structure crafted with <a href="https://www.perplexity.ai/" target="_blank">Perplexity AI</a></li>
 				</ul>
 			</section>
 
